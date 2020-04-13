@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Full Regression Testing Suite">
+<test name="CompaniesTest">
+    <classes>
+        <class name="CompaniesTest"/>
+    </classes>
+</test>
+</suite>

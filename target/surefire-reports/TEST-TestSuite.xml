@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="2" name="TestSuite" time="33.011" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.2+13"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/enikozsoldos/BizmodTest"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="NL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/enikozsoldos/BizmodTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="10.0.2+13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/hh/2hqnx98x0nj2nyyn9db0svd80000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/enikozsoldos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.4/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.4"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.4/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/enikozsoldos"/>
+    <property name="user.timezone" value="Europe/Bucharest"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="enikozsoldos"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.4/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.4/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="CompaniesTest" name="addAndDeleteAssociate" time="4.551">
+    <failure message="The associate number is not correct expected [2] but found [3]" type="java.lang.AssertionError">java.lang.AssertionError: The associate number is not correct expected [2] but found [3]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at CompaniesTest.addAndDeleteAssociate(CompaniesTest.java:160)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@69a3d1d
+18:48:23.281 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=80 (valid until 2020-04-13 21:41:07)
+18:48:23.287 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome80=80.0.3987.106 (valid until 2020-04-13 21:41:07)
+18:48:23.287 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+18:48:23.310 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 80.0.3987.106 found in cache
+18:48:23.312 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/enikozsoldos/.m2/repository/webdriver/chromedriver/mac64/80.0.3987.106/chromedriver
+</system-out>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 7193
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 13, 2020 6:48:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1586792906.210][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792906.314][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792906.416][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792906.519][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792906.620][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792907.002][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792907.104][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792907.205][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792907.307][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792907.409][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792907.531][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792907.632][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792907.735][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792907.837][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792907.938][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792908.039][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792908.142][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792908.243][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792908.345][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792908.446][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792908.549][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792908.651][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792908.753][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792908.856][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792908.958][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792909.060][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792909.428][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792909.686][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792909.788][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792909.894][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792909.997][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792910.101][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586792910.202][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="CompaniesTest" name="createCompany" time="2.901"/>
+  <testcase classname="CompaniesTest" name="createCompanyWithAllData" time="5.834"/>
+  <testcase classname="CompaniesTest" name="deleteCompany" time="13.468">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.cssSelector: section.companies-list (tried for 10 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: section.companies-list (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at page.objects.BasePage.waitUntil(BasePage.java:26)
+	at page.objects.BasePage.&lt;init&gt;(BasePage.java:18)
+	at page.objects.CompaniesPage.&lt;init&gt;(CompaniesPage.java:20)
+	at page.objects.CompanyDetailPage.deleteCompany(CompanyDetailPage.java:40)
+	at CompaniesTest.deleteCompany(CompaniesTest.java:122)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.cssSelector: section.companies-list
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;Enikos-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:448:a2cd:d926:9d5e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;10.0.2&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:397)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 40 more
+</failure>
+  </testcase>
+  <testcase classname="CompaniesTest" name="moveSlider" time="4.663"/>
+  <testcase classname="CompaniesTest" name="validation" time="1.594"/>
+</testsuite>
